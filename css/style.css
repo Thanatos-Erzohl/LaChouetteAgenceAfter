@@ -841,14 +841,16 @@ nav ul li{
     transition: all 200ms ease-in-out;
 }
 nav ul li:hover,
-nav ul li:focus{
+nav ul li:focus,
+nav ul li:active{
     background-color: #CB4C11;
 }
 nav ul li a{
     transition: all 200ms ease-in-out;
 }
 nav ul li:hover a,
-nav ul li:focus{
+nav ul li:focus
+nav ul li:active{
     color: #FFF!important;
 }
 
